@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg, rgb(32, 32, 32), black);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    margin: 3%;
+}
+
+.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(122, 121, 121, 0.2);
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 80%;
+    height: auto;
+}
+
+.section {
+    color: white;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.section img {
+    width: 30%;
+    background-color: black;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.section p {
+    text-align: justify;
+}
