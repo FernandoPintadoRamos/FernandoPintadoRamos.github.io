@@ -5,6 +5,11 @@ body {
     align-items: center;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .title {
     color: white;
     font-size: 30px;
@@ -29,6 +34,20 @@ body {
     padding: 5%;
 }
 
+.section a{
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.section a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.75s;
+}
+
 .section img {
     width: 30%;
     background-color: black;
@@ -40,8 +59,32 @@ body {
     text-align: justify;
 }
 
-li {
+.proyecto{
+    text-align: left;
+}
+
+.proyecto img{
+    margin: 3%;
+    width: 30%;
+    float: left;
+}
+
+.proyecto h4{
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    text-align: justify;
+}
+
+.proyecto p{
+    font-size: 15px;
+    color: white;
+    padding: 1%;
+    text-align: justify;
+}
+
+.proyecto a:hover{
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+
 }
