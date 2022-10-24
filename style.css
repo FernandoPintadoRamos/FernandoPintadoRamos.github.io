@@ -7,6 +7,10 @@ body {
     margin-right: auto;
 }
 
+li{
+    text-align: left;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -50,7 +54,7 @@ a{
     transition: all 0.75s;
 }
 
-.section img {
+.section-img {
     width: fit-content;
     background-color: black;
     border-radius: 100%;
